@@ -1,0 +1,25 @@
+
+//If 9
+//Даны 2 пременные а и б. перераспределить значения аи б так, чтобы в а оказалось меньшее значение. вывести эти занчения
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+    cout << "Enter A and B: "<< endl;
+    cin >> a >> b;
+    cout << "A: "<< a<< " B: "<< b << endl;
+    if  ( a > b ) {
+        c = a;
+        a = b;
+        b = c;
+        cout << "A: " << a <<"B: " << b << endl;  
+    } else if (a==b) {
+        cout << "A = B = " << b << endl;
+    } else {
+       cout << "A: "<< a << " B: "<< b << endl; 
+    }
+    cin.get(); cin.get();
+    return 0;
+}
