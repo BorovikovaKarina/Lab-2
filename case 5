@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a, b;
+    int n;
+    cout << "Enter A, B: " << endl;
+    cin >> a >> b;
+    cout << "Nomera arifmeticheskikh deistviy: \n 1 - slozheniye \n 2 - vichitaniye \n 3- umnozheniye \n 4 - deleniye \n Viberite deistviye: " << endl;
+    cin >> n;
+    switch (n) {
+    case 1:
+        cout << "A + B = " << a + b << endl;
+        break;
+    case 2:
+        cout << "A - B = " << a - b << endl;
+        break;
+    case 3:
+        cout << "A * B = " << a * b << endl;
+        break;
+    case 4:
+        cout << "A / B = " << a / b<< endl;
+        break;
+    default:
+        cout << "Nepravilniy nomer arifmeticheskogo deistviya" << endl;
+        break;
+    }
+
+    return 0;
+}
