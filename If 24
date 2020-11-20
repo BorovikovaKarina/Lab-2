@@ -1,0 +1,25 @@
+//If 24 
+//Для данного вещественного х найти значение следующей функции f
+// принимающей вещественные значения:
+//
+//              / 2 * sin(x), если х>0
+//       f(x)= <
+//              \ 6-х, если x<=0
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float f, x;
+    cout << "Enter х: "<< endl;
+    cin >> x;
+    if ( x > 0 ){
+        f = 2 * sin(x);
+        cout << "x > 0 \n f = 2 * sin(x) = "<< f << endl; 
+    } else {
+        f = 6 - x;
+        cout << "x <= 0 \n f = 6-x = "<< f << endl; 
+    }
+    return 0;
+}
