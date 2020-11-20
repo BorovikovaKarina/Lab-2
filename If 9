@@ -20,6 +20,5 @@ int main()
     } else {
        cout << "A: "<< a << " B: "<< b << endl; 
     }
-    cin.get(); cin.get();
     return 0;
 }
