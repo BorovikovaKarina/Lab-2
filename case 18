@@ -1,1 +1,180 @@
+//case 18
+#include <iostream>
+using namespace std;
 
+int
+main ()
+{
+  int n, c1, c2, c3;
+  cout << "Enter the number between 100 and 999: " << endl;
+  cin >> n;
+  c1 = n / 100;
+  c2 = (n % 100) / 10;
+  c3 = (n % 100) % 10;
+    switch (c1)
+    {
+        case 1: cout << "Sto" << endl; break;
+        case 2: cout << "Dvesti" << endl; break;
+        case 3: cout << "Trista" << endl; break;
+        case 4: cout << "Chetiresta" << endl; break;
+        case 5: cout << "Piatsot" << endl; break;
+        case 6: cout << "Shestsot" << endl; break;
+        case 7: cout << "Semsot" << endl; break;
+        case 8: cout << "Vosemsot" << endl; break;
+        case 9: cout << "Deviatsot" << endl; break;
+    }
+    switch (c2)
+    {
+        case 0: cout << " " << endl;
+        switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            } 
+        break;
+        case 1: 
+            switch (c3)
+            {
+            case 0: cout << "desiat" << endl; break;
+            case 1: cout << "odinnadcat" << endl; break;
+            case 2: cout << "dvenadcat" << endl; break;
+            case 3: cout << "trinadcat" << endl; break;
+            case 4: cout << "chetirnadcat" << endl; break;
+            case 5: cout << "piatnadcat" << endl; break;
+            case 6: cout << "shestnadcat" << endl; break;
+            case 7: cout << "semnadcat" << endl; break;
+            case 8: cout << "vosemnadcat" << endl; break;
+            case 9: cout << "deviatnadcat" << endl; break;
+            }
+            break;
+        case 2: 
+        cout << "dvadcat" << endl; 
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            }
+        break;
+        case 3: cout << "tridcat" << endl;
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            }
+        break;
+        case 4: cout << "sorok" << endl; 
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            } 
+            break;
+        case 5: cout << "piatdesiat" << endl; 
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            }
+        break;
+        case 6: cout << "shestdesiat" << endl; 
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            }
+        break;
+        case 7: cout << "semdesiat" << endl; 
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            }
+        break;
+        case 8: cout << "vosemdesiat" << endl; 
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            }
+        break;
+        case 9: cout << "devianosta" << endl; 
+            switch (c3)
+            {
+            case 0: cout << " " << endl; break;
+            case 1: cout << "odin" << endl; break;
+            case 2: cout << "dva" << endl; break;
+            case 3: cout << "tri" << endl; break;
+            case 4: cout << "chetire" << endl; break;
+            case 5: cout << "piat" << endl; break;
+            case 6: cout << "shest" << endl; break;
+            case 7: cout << "sem" << endl; break;
+            case 8: cout << "vosem" << endl; break;
+            case 9: cout << "deviat" << endl; break;
+            }break;
+    }
+  return 0;
+}
