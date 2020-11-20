@@ -14,7 +14,7 @@ int main()
         c = a;
         a = b;
         b = c;
-        cout << "A: " << a <<"B: " << b << endl;  
+        cout << "A: " << a <<" B: " << b << endl;  
     } else if (a==b) {
         cout << "A = B = " << b << endl;
     } else {
