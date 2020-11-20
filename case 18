@@ -1,1 +1,120 @@
+#include <iostream>
+using namespace std;
+int
+main () 
+    {
+    int n, c1, c2;
+    cout << "Enter the number between 100 and 999: ";
+    cin >> n;
+    if ((n < 100) || (n > 999))
+        {
+    cout << "!Wrong number!";
+        }
+      else
+        {
+    cout <<n << " - ";
+    c1 = n / 100;
+    switch (c1)
+	{
+        case 1:  cout << "Sto ";
+        	     break;
+        case 2:  cout << "Dvesti ";
+        	      break;
+        case 3:  cout << "Trista ";
+        	      break;
+        case 4:  cout << "Chetiresta ";
+        	      break;
+        case 5:  cout << "Piatsot ";
+        	      break;
+        case 6:  cout << "Shestsot ";
+        	      break;
+        case 7:  cout << "Semsot ";
+        	      break;
+        case 8:  cout << "Vosemsot ";
+        	      break;
+        case 9:  cout << "Deviatsot ";
+        	      break;
+    }
+    c2 = n % 100;
+    if ((c2 > 9) && (c2 < 20))
+	{
+        switch (c2)
+	    {
+        case 10:    cout << "desiat ";
+                    break;
+        case 11:    cout << "odinnadcat ";
+                    break;
+        case 12:    cout << "dvenadcat ";
+                    break;
+        case 13:    cout << "trinadcat ";
+                    break;
+        case 14:    cout << "chetirnadcat ";
+                    break;
+        case 15:    cout << "piatnadcat ";
+                    break;
+        case 16:    cout << "shestnadcat ";
+                    break;
+        case 17:    cout << "semnadcat ";
+                    break;
+        case 18:    cout << "vosemnadcat ";
+                    break;
+        case 19:    cout << "deviatnadcat ";
+                    break;
+    }
+}
+      else
+switch (int (c2 / 10))
+    	  {
+    	  
+    case 2: cout << "dvadcat ";
+    	    break;
+    case 3: cout << "tridcat ";
+    	    break;
+    case 4: cout << "sorok ";
+    	    break;
+    case 5: cout << "piatdesiat ";
+    	    break;
+    case 6: cout << "shestdesiat ";
+    	    break;
+    case 7: cout << "semdesiat ";
+    	    break;
+    case 8: cout << "vosemdesiat ";
+    	    break;
+    case 9: cout << "devianosto ";
+    	    break;
+    }
+          
+switch (c2 % 10)
+	{
+    case 1:
+    	  cout << "odin ";
+    	  break;
+    case 2:
+    	  cout << "dva ";
+    	  break;
+    case 3:
+    	  cout << "tri ";
+    	  break;
+    case 4:
+    	  cout << "chetire ";
+          break;
+    case 5:
+    	  cout << "piat ";
+    	  break;
+    case 6:
+    	  cout << "shest ";
+    	  break;
+    case 7:
+    	  cout << "sem ";
+    	  break;
+    case 8:
+    	  cout << "vosem ";
+          break;	
+    case 9: 
+        cout << "deviat ";
+    	  break;
+        }
+}
+return 0;
+}
 
