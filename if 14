@@ -25,6 +25,5 @@ int main()
         min=c;
     }
      cout << "The Least of these numbers: "<< min << " The largest of these numbers: "<< max << endl;
-    cin.get(); cin.get();
     return 0;
 }
